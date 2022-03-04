@@ -4,14 +4,11 @@ hsp = 0;
 vsp = 0;
 grv = 0.5;
 //Health
-hp = 100;
-//Jump Speed
-jumpsp = 12;
-//Walk Speed
-walksp = 5;
+hp = health_start;
 //Shooting
-fireDelay = 0;
-//Pressure Wash PowerUp 
+canFire = true;
+//Pressure Wash PowerUp
 pwPowerUp = false;
 points = 0;
-waterSupply = 200;
+//Damage Invincibility Frames
+canGetHurt = true;

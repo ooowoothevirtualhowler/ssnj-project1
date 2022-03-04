@@ -1,3 +1,11 @@
-/// @description Insert description here
+/// @description Enemy Damage
 // You can write your code in this editor
-obj_player.hp -= 15;
+
+// TODO: Rework this so you can't stand on top of enemies
+// and take no damage
+if canGetHurt {
+	canGetHurt = false;
+	obj_player.hp -= 15;
+}
+
+alarm[1] = hit_invincibility_time;
