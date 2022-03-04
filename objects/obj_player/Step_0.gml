@@ -3,11 +3,12 @@
 //Controls
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
 key_jump = keyboard_check_pressed(ord("Z"));
+key_run = keyboard_check(ord("C"));
+key_shoot = keyboard_check_pressed(ord("X"));
+key_restart = keyboard_check_pressed(ord("R"));
 
-if (obj_player.hp < 0 || obj_player.hp == 0) {
+if (obj_player.hp < 0 || obj_player.hp == 0 || key_restart) {
 	game_restart();
 }
 
@@ -23,7 +24,7 @@ if ((place_meeting(x,y+1,obj_wall)) && (key_jump))
 }
 
 //Run
-if (keyboard_check(ord("X"))) {
+if (key_run) {
 	walksp += 0.25;
 	if (walksp > 10) {
 		walksp = 10;
@@ -81,7 +82,7 @@ if (vsp < 0 || !(place_meeting(x,y+1,obj_wall))) {
 //Shooting
 fireDelay = fireDelay - 1;
 
-if (keyboard_check_pressed(ord("X")) && (fireDelay < 0)) {
+if (key_shoot && (fireDelay < 0)) {
 	//Limit Ammo
 	obj_player.waterSupply -= 15;
 	if (waterSupply < 0 || waterSupply == 0) {
@@ -144,12 +145,6 @@ if (pwPowerUp == true) {
 	if (vsp < 0 || !(place_meeting(x,y+1,obj_wall))) {
 		sprite_index = nate_jump_pw;
 	}
-	
-	
-	
-			
-	
-	
 }
 
 

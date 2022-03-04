@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 3,
   "bbox_right": 125,
-  "bbox_top": 25,
-  "bbox_bottom": 127,
+  "bbox_top": 0,
+  "bbox_bottom": 102,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 128,
-  "height": 128,
+  "height": 103,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"27d9f4ed-d20c-426f-bcd5-7bf79f98d0b2","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"27d9f4ed-d20c-426f-bcd5-7bf79f98d0b2","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":{"name":"bef477e7-2b01-435f-9720-3fc26cbf7350","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"27d9f4ed-d20c-426f-bcd5-7bf79f98d0b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5f46a5e4-632e-45e7-95ef-52dd613d1835","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5f46a5e4-632e-45e7-95ef-52dd613d1835","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":{"name":"bef477e7-2b01-435f-9720-3fc26cbf7350","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"5f46a5e4-632e-45e7-95ef-52dd613d1835","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2a64c949-aea2-40cd-8601-da24b7a6dd04","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2a64c949-aea2-40cd-8601-da24b7a6dd04","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":{"name":"8dd4f9d1-537b-452c-953e-0f7193cb5ffb","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"2a64c949-aea2-40cd-8601-da24b7a6dd04","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"08a1171d-ebfe-44db-af03-996757c7f1f5","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"08a1171d-ebfe-44db-af03-996757c7f1f5","path":"sprites/enemy_1/enemy_1.yy",},"LayerId":{"name":"8dd4f9d1-537b-452c-953e-0f7193cb5ffb","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","name":"08a1171d-ebfe-44db-af03-996757c7f1f5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ae12c342-9966-443c-b404-583a36a10dd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"27d9f4ed-d20c-426f-bcd5-7bf79f98d0b2","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b182bb43-b703-4650-b92b-889b62cc4982","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f46a5e4-632e-45e7-95ef-52dd613d1835","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c0eeacb-d73c-4a10-af33-74cf9561191b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a64c949-aea2-40cd-8601-da24b7a6dd04","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"311b8d5e-915a-4e70-aac9-44dd7ea7c60d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08a1171d-ebfe-44db-af03-996757c7f1f5","path":"sprites/enemy_1/enemy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 64,
-    "yorigin": 128,
+    "yorigin": 103,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"enemy_1","path":"sprites/enemy_1/enemy_1.yy",},
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bef477e7-2b01-435f-9720-3fc26cbf7350","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8dd4f9d1-537b-452c-953e-0f7193cb5ffb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

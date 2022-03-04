@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 1,
   "bbox_right": 124,
-  "bbox_top": 33,
-  "bbox_bottom": 120,
+  "bbox_top": 5,
+  "bbox_bottom": 92,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 128,
-  "height": 128,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"52637f45-a277-4f0f-be44-50acabfc40d6","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52637f45-a277-4f0f-be44-50acabfc40d6","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"LayerId":{"name":"aacf7af6-75d3-4f14-b03f-ad1d9f4bc0cb","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"enemy_1_jump","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","name":"52637f45-a277-4f0f-be44-50acabfc40d6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d112cf4c-4c10-4037-b32c-14589d3b90f9","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d112cf4c-4c10-4037-b32c-14589d3b90f9","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"LayerId":{"name":"d3b66e2e-6bae-46c6-8c06-e247b895a9fc","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"enemy_1_jump","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","name":"d112cf4c-4c10-4037-b32c-14589d3b90f9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"enemy_1_jump","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0116f452-d61e-4064-83e9-b696cd60f3ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52637f45-a277-4f0f-be44-50acabfc40d6","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6923a27e-4835-4a37-a430-6108af884cbf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d112cf4c-4c10-4037-b32c-14589d3b90f9","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 64,
-    "yorigin": 128,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"enemy_1_jump","path":"sprites/enemy_1_jump/enemy_1_jump.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aacf7af6-75d3-4f14-b03f-ad1d9f4bc0cb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d3b66e2e-6bae-46c6-8c06-e247b895a9fc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
