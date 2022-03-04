@@ -86,46 +86,43 @@ if (key_shoot && (fireDelay < 0)) {
 	//Limit Ammo
 	obj_player.waterSupply -= 15;
 	if (waterSupply < 0 || waterSupply == 0) {
-		
+		// TODO: We ran out of ammo
 	}
-	
-	
-	
 	
 	//Shooting Mechanics
 	fireDelay = 5;
-	with (instance_create_layer(x+64,y,"bullets",obj_bullet)) {
-		
+	
+	if (obj_player.pwPowerUp) {
+		xOffset = 128
+	} else {
+		xOffset = 64
+	}
+	
+	if (obj_player.image_xscale == -1)
+		xOffset *= -1
+	
+	with (instance_create_layer(x+xOffset,y,"bullets",obj_bullet)) {
 		obj_bullet.speed = 25;
 		
 			if (obj_player.image_xscale == 1) {
-				if (obj_player.pwPowerUp == true) {
+				if (obj_player.pwPowerUp) {
 					obj_bullet.sprite_index = spr_super_R;
-					direction = 0;
 				}
 				else {
 					obj_bullet.sprite_index = spr_water_R;
-					direction = 0;
 				}
-			}
-			
-			if (obj_player.image_xscale == -1) {
-			
-				if (obj_player.pwPowerUp == true) {
+				direction = 0;
+			} else {
+				if (obj_player.pwPowerUp) {
 					obj_bullet.sprite_index = spr_super_L;
-					direction = 180;
 				}
 				else {
 					obj_bullet.sprite_index = spr_water_L;
-					direction = 180;
 				}
+				direction = 180;
 			}
 			image_angle = direction;
-			
-			
-			
 	}
-	
 }	
 
 
@@ -146,5 +143,3 @@ if (pwPowerUp == true) {
 		sprite_index = nate_jump_pw;
 	}
 }
-
-
