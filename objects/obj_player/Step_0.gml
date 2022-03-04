@@ -81,10 +81,10 @@ if (vsp < 0 || !(place_meeting(x,y+1,obj_wall))) {
 
 if (key_shoot && canFire) {
 	//Limit Ammo
-	obj_player.waterSupply -= 15;
 	if (waterSupply < 0 || waterSupply == 0) {
 		canFire = false;
 	} else {
+		obj_player.waterSupply -= 15;
 		//Shooting Mechanics
 		canFire = false;
 		alarm[0] = fire_rate;
